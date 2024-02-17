@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./CSS/style.css" />
-        <link rel="icon" href="./img/climate-change.png" />
-        <script src="./JS/script.js"></script>
-        <title>Document</title>
-    </head>
-    <body></body>
+    <body id="background">
+        <head>
+            <meta charset="UTF-8" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0"
+            />
+            <link rel="stylesheet" href="./CSS/style.css" />
+            <link rel="icon" href="./img/climate-change.png" />
+            <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+                integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+                crossorigin="anonymous"
+                referrerpolicy="no-referrer"
+            />
+            <script src="./JS/script.js" defer></script>
+            <title>Climate</title>
+        </head>
+        <main class="container">
+            <div class="form">
+                <h3 id="city_">Check out the climate of a city:</h3>
+                <div class="form-input-container">
+                    <i
+                        class="fa-solid fa-location-dot fa-shake fa-lg"
+                        style="color: #00a0fdfb; --fa-animation-duration: 3s"
+                    ></i>
+                    <input
+                        type="text"
+                        placeholder="Enter the name of the city"
+                        id="city-input"
+                    />
+                    <button id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="weather-data" class="hide">
+                <h2>
+                    <span id="city"></span>
+                    <img src="" alt="Flag of the country" id="country" />
+                </h2>
+                <p id="temperature"><span></span></p>
+                <div id="description-container">
+                    <p id="description"></p>
+                    <img src="" alt="Weather conditions" id="weather-icon" />
+                </div>
+                <div id="details-container">
+                    <div class="temperature">
+                        <p id="min">
+                            <i
+                                class="fa-solid fa-temperature-three-quarters fa-lg"
+                                style="color: #0d64d5"
+                            ></i>
+                            <span></span>
+                        </p>
+                        <p id="max">
+                            <i
+                                class="fa-solid fa-temperature-three-quarters fa-lg"
+                                style="color: #a30505"
+                            ></i>
+                            <span></span>
+                        </p>
+                    </div>
+                    <div class="details">
+                        <p id="umidity">
+                            <i
+                                class="fa-solid fa-droplet fa-lg"
+                                style="color: #0d99d5"
+                            ></i>
+                            <span></span>
+                        </p>
+                        <p id="wind">
+                            <i
+                                class="fa-solid fa-wind fa-lg"
+                                style="color: #692cd3"
+                            ></i>
+                            <span></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
 </html>
