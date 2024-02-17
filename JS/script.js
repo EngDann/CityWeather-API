@@ -1,6 +1,4 @@
 const apiKey = "ba605efc18f1572f61892fe426f18a1a";
-/* const api_country_URL = `https://flagsapi.com/${ds}/flat/32.png`;
- */
 const city_input = document.querySelector("#city-input");
 const search_btn = document.querySelector("#search");
 const city_ = document.querySelector("#city_");
