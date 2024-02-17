@@ -33,7 +33,7 @@ To use the "City Weather API", follow the steps below:
 1. **Clone the repository**:
 
     ```bash
-    git clone git clone https://github.com/EngDann/CityWeather-API.git
+    git clone  https://github.com/EngDann/CityWeather-API.git
     ```
 
 2. **Access the project folder**:
