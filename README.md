@@ -67,7 +67,7 @@ Your contributions are very welcome! If you have suggestions for improving this 
 2. **Clone the fork**:
 
     ```bash
-    git clone git clone https://github.com/EngDann/CityWeather-API.git
+    git clone https://github.com/EngDann/CityWeather-API.git
     ```
 
 3. **Create a new branch**:
