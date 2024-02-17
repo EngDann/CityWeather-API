@@ -4,8 +4,10 @@ const apiKey = "ba605efc18f1572f61892fe426f18a1a";
 const city_input = document.querySelector("#city-input");
 const search_btn = document.querySelector("#search");
 const city_ = document.querySelector("#city_");
+const container = document.querySelector(".container");
 const background = document.querySelector("#background");
 
+const loading = document.querySelector(".fa-solid.fa-spinner.fa-spin.fa-2xl");
 const main = document.querySelector("#weather-data");
 const city_element = document.querySelector("#city");
 const temp_element = document.querySelector("#temperature span");
@@ -21,6 +23,8 @@ const screen_height = screen.height;
 
 const get_weather_data = async (city) => {
     try {
+        container.style.display = "none";
+        loading.style.display = "inline-block";
         const api_weather_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
         const [response_weather, response_back] = await Promise.all([
             fetch(api_weather_URL),
@@ -33,8 +37,12 @@ const get_weather_data = async (city) => {
         ]);
         const data_weather = await response_weather.json();
         if (!response_weather.ok || !response_back.ok) {
+            loading.style.display = "none";
+            container.style.display = "inline-block";
             throw new Error("Network response was not ok");
         }
+        loading.style.display = "none";
+        container.style.display = "inline-block";
         console.log(data_weather);
         background.style.backgroundImage = `url(${response_back.url})`;
         background.style.backgroundRepeat = "no-repeat";
