@@ -52,9 +52,9 @@ To use the "City Weather API", follow the steps below:
 
 The project does not require the installation of additional dependencies, as it is entirely based on HTML, CSS (Sass), and pure JavaScript.
 
-## Screenshots
+## Video
 
-> Add screenshots of the project here.
+https://github.com/EngDann/CityWeather-API/assets/137555908/ec89f152-147c-44ed-9faf-9d1a14e8f7a4
 
 ## Contributions
 
@@ -167,9 +167,9 @@ Para utilizar o "City Weather API", siga os passos abaixo:
 
 O projeto não necessita de instalação de dependências adicionais, pois é inteiramente baseado em HTML, CSS (Sass), e JavaScript puro.
 
-## Capturas de Tela
+## Video
 
-> Adicione capturas de tela do projeto aqui.
+https://github.com/EngDann/CityWeather-API/assets/137555908/ec89f152-147c-44ed-9faf-9d1a14e8f7a4
 
 ## Contribuições
 
