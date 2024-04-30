@@ -26,6 +26,10 @@ This project was a rewarding challenge that allowed me to deepen my knowledge in
 - Effective use of Sass to create a responsive and adaptable design.
 - Refined DOM manipulation techniques to dynamically update the page content.
 
+## Video
+
+https://github.com/EngDann/CityWeather-API/assets/137555908/ec89f152-147c-44ed-9faf-9d1a14e8f7a4
+
 ## How to Use
 
 To use the "City Weather API", follow the steps below:
@@ -51,10 +55,6 @@ To use the "City Weather API", follow the steps below:
     In the available search field on the page, type the name of the city you wish to check the weather for and press "Enter" or click on the magnifying glass icon to perform the search.
 
 The project does not require the installation of additional dependencies, as it is entirely based on HTML, CSS (Sass), and pure JavaScript.
-
-## Video
-
-https://github.com/EngDann/CityWeather-API/assets/137555908/ec89f152-147c-44ed-9faf-9d1a14e8f7a4
 
 ## Contributions
 
@@ -141,6 +141,10 @@ Este projeto representou um desafio gratificante, através do qual pude aprofund
 - Uso eficaz do Sass para criar um design responsivo e adaptável.
 - Técnicas refinadas de manipulação do DOM para atualizar o conteúdo da página dinamicamente.
 
+## Video
+
+https://github.com/EngDann/CityWeather-API/assets/137555908/ec89f152-147c-44ed-9faf-9d1a14e8f7a4
+
 ## Como Usar
 
 Para utilizar o "City Weather API", siga os passos abaixo:
@@ -166,10 +170,6 @@ Para utilizar o "City Weather API", siga os passos abaixo:
     No campo de pesquisa disponível na página, digite o nome da cidade que deseja consultar o clima e pressione "Enter" ou clique no ícone de lupa para realizar a busca.
 
 O projeto não necessita de instalação de dependências adicionais, pois é inteiramente baseado em HTML, CSS (Sass), e JavaScript puro.
-
-## Video
-
-https://github.com/EngDann/CityWeather-API/assets/137555908/ec89f152-147c-44ed-9faf-9d1a14e8f7a4
 
 ## Contribuições
 
